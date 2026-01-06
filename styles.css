@@ -1,0 +1,27 @@
+/* General Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: system-ui, -apple-system, sans-serif; background-color:#87e2a2; color:#064e3b; scroll-behavior:smooth; }
+
+/* Navigation */
+.nav-link { transition: color 0.3s ease; }
+.nav-link:hover { color:#10b981; }
+
+/* Centers */
+.center-card {
+  background:white; border:2px solid #d1fae5; border-radius:0.5rem;
+  padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.1); transition:all 0.3s ease;
+}
+.center-card:hover {
+  border-color:#10b981;
+  box-shadow:0 8px 20px rgba(16,185,129,0.2);
+}
+
+/* Feedback Rating */
+.rating-star { cursor:pointer; color:#9ca3af; background:none; border:none; padding:0; font-size:2.5rem; transition:color 0.3s ease; }
+.rating-star:hover, .rating-star.active { color:#fbbf24; }
+
+/* Buttons */
+button, input[type="submit"] { cursor:pointer; transition:all 0.3s ease; }
+
+/* Success Messages */
+#feedback-success { animation: fadeIn 0.5s ease-out; }
